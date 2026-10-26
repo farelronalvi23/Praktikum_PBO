@@ -89,9 +89,9 @@ Dua class yang tidak memiliki relasi pewarisan satu sama lain, namun sama-sama m
 
 Diagram kelas berikut menggambarkan seluruh class beserta atribut dan method utamanya, lengkap dengan simbol relasi Asosiasi, Agregasi, Komposisi, dan Inheritance.
 
-![Class Diagram SIREVA](class_diagram.png)
+![Class Diagram SIREVA](diagram_class.png)
 
-Berkas sumber diagram dibuat dengan draw.io dan tersedia pada `class_diagram.drawio` (dapat dibuka dan diedit di diagrams.net).
+Berkas sumber diagram dibuat dengan draw.io dan tersedia pada `diagram_class.drawio` (dapat dibuka dan diedit di diagrams.net).
 
 ### Asosiasi ("menggunakan")
 
@@ -139,7 +139,7 @@ Program ini secara sengaja tidak menggunakan percabangan `if/elif` yang memeriks
 
 Gambar berikut merupakan tangkapan keluaran dari menu "Demo Konsep OOP", yang mencakup pembuktian `TypeError` saat `MetodePembayaran` dicoba diinstansiasi langsung, polimorfisme melalui pewarisan, duck typing, dan operator overloading.
 
-![Screenshot Demo Konsep OOP](screenshot_demo_oop.png)
+![Screenshot Demo Konsep OOP](ss_demo_oop.png)
 
 Catatan: gambar di atas dihasilkan dari keluaran program yang sesungguhnya (bukan rekaan), dengan tampilan menyerupai jendela terminal agar mudah dibaca. Apabila aslab mewajibkan tangkapan layar asli dari perangkat sendiri, gambar ini dapat digantikan dengan screenshot pribadi dari hasil menjalankan menu yang sama.
 
@@ -155,7 +155,7 @@ Program ini menerapkan Open/Closed Principle (OCP) pada hierarki `MetodePembayar
 
 ### Cara Menjalankan Program
 ```bash
-python3 sireva_posttest_interaktif.py
+python posttest3_2509106111_FarelRonalvi.py
 ```
 
 ### Kredensial Admin (bersifat tetap, tanpa registrasi)
